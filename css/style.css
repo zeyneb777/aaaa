@@ -1,0 +1,84 @@
+header {
+    background: linear-gradient(#00000066, #00000066),
+        url("../img/bg.webp") center/cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 41px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+ul>li a {
+    padding: 30px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 572px;
+    padding-left: 141px;
+
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 300px;
+
+        h1 {
+            color: #fc6060;
+            font: 500px 86px;
+            background-color: transparent;
+        }
+
+        p {
+            color: #fff;
+            margin: 15px 0px;
+            margin-bottom: 50px;
+            line-height: 2;
+        }
+    }
+
+    .button {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        gap: 30px;
+
+        .button2 {
+            text-align: center;
+            padding: 0 60px;
+            font: 16px 500 "Poppins";
+            height: 45px;
+            border: 2px solid #fc6060;
+            border-radius: 60px;
+            background-color: transparent;
+            color: #fff;
+            text-align: center;
+            margin: 36px;
+            transition-duration: 500ms;
+        }
+    }
+
+    a {
+        color: #fff;
+        font: italic 500 16px;
+    }
+}
